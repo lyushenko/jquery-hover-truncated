@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="UTF-8">
+  <title>jQuery Hover Truncated Plugin Demo</title>
+  <link rel="stylesheet" href="../src/stylesheets/jquery.hovertruncated.css">
+  <style type="text/css" media="screen">
+    html, body {
+      height: 100%;
+      font: 400 14px/1.24 helvetica, arial, sans-serif;
+    }
+
+    body {
+      padding: 200px;
+    }
+
+    ul.container {
+      list-style: none;
+      width: 500px;
+      margin: 0 auto;
+      padding: 15px 0;
+      border: 1px solid silver;
+      border-radius: 4px;
+    }
+
+    li.title {
+      background: #efefef;
+      margin: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+  <ul class="container">
+    <li class="title truncate">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam justo nibh,
+      cursus ut semper a, faucibus nec magna. Nulla pharetra ultricies pulvinar.
+    </li>
+    <li class="title truncate">
+      Nam fermentum cursus dapibus. Vivamus tristique nulla id condimentum
+      feugiat. Sed consectetur velit sit amet libero tempor gravida.
+    </li>
+    <li class="title truncate">
+      Curabitur scelerisque sodales justo, in tempus velit cursus eu.
+      Donec ut nisi volutpat, vehicula purus id, consequat ligula.
+      Suspendisse et augue dignissim, rhoncus odio in, pulvinar sapien.
+    </li>
+  </ul>
+  <script src="jquery-2.1.4.min.js"></script>
+  <script src="../src/javascripts/jquery.hovertruncated.js"></script>
+  <script>
+    $(function(){
+      $('.truncate').hoverTruncated();
+    });
+  </script>
+</body>
+</html>

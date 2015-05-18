@@ -1,0 +1,24 @@
+{
+  "name": "jquery-hover-truncated",
+  "version": "1.0.0",
+  "authors": [
+    "Eugene Lyushenko <lyushenko@gmail.com>"
+  ],
+  "description": "This is a simple jQuery plugin which truncates a line and displays a tooltip on hover.",
+  "main": "src/javascripts/jquery.hovertruncated.js",
+  "keywords": [
+    "jquery",
+    "truncate",
+    "tooltip",
+    "hover",
+    "ellipsis"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
