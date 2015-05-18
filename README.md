@@ -34,7 +34,7 @@ Installation and usage
     var options = {
       dataAttr:    'plugin-cache',    // data attribute to store an instance, default: 'hover-truncated'
       className:   'tooltip-plain',   // tooltip class name, default: 'hover-truncated'
-      tooltipText: 'Hello, World!',     // tooltip text, default: element inner text
+      tooltipText: 'Hello, World!',   // tooltip text, default: element inner text
       offsetX:     0,                 // tooltip offset-x, default: 10px
       offsetY:     0                  // tooltip offset-y, default: 10px
     };
