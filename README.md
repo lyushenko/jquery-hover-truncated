@@ -9,19 +9,26 @@ Installation and usage
 
 1. Run `bower install jquery-hover-truncated`
 2. Copy styles to your stylesheet or just link an external file in your `<head>`:
+
   `<link rel="stylesheet" type="text/css" href="path/to/jquery.hovertruncated.css">`
+
 3. Then, before your closing `<body>` tag add:
+
   ```
   <script src="path/to/jquery.min.js"></script>
   <script src="path/to/jquery.hovertruncated.js"></script>
   ```
+
 4. In your JS, initialize a plugin:
+
   ```
   $(function(){
      $('.truncate').hoverTruncated();
   });
   ```
+
   Or configure it like the following:
+
   ```
   $(function(){
     var options = {
@@ -34,7 +41,9 @@ Installation and usage
     $('.truncate').hoverTruncated(options);
   });
   ```
+
 5. Then you can call a plugin method:
+
 ```
 $(function(){
    $('.truncate').hoverTruncated('hide');                             // hides an element's tooltip
