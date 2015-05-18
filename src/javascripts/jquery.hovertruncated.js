@@ -26,7 +26,7 @@
     return this;
   };
 
-  HoverTruncated.VERSION  = '1.0.0';
+  HoverTruncated.VERSION  = '1.0.1';
   HoverTruncated.DEFAULTS = {
     dataAttr:    'hover-truncated',
     className:   'hover-truncated',
