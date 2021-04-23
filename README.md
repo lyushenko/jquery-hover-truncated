@@ -1,8 +1,9 @@
 jQuery Hover Truncated
 ======
 
-This is a simple jQuery plugin which truncates a text to single line, clipped
-with an ellipsis and displays a tooltip on hover. See demo for more details.
+This is a simple jQuery plugin that truncates text to a single line clipped with an ellipsis and displays a tooltip on hover.
+
+WARNING: this repo is not maintained anymore.
 
 Installation and usage
 ----------------------
